@@ -76,8 +76,8 @@ While the MechaCar prototypes in Lots 1 and 2 are similar, the prototypes in Lot
 ## Study Design: MechaCar vs. Competition
 #### Safety
 We would like to see how MechaCar performs against its competition in the category of safety. We first start by determining the metrics that we would use to evaluate safety:
-1. Safety ratings as issued by the IIHS overall
-2. Safety ratings by model type of MechaCar
+1. Safety ratings for MechaCar as well as for other car makes
+2. Safety ratings by model type for MechaCar
 3. What sorts of design features impact safety ratings
 
 #### Null Hypothesis and Alternative Hypothesis
