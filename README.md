@@ -8,4 +8,12 @@ This statistical analysis serves to help an automobile manufacturer determine:
 In addition, we will design a study comparing the MechaCar to other cars
 
 ## Linear Regression to Predict MPG
+#### DataFrame
+The MechaCar_mpg.csv dataset contacts mpg results for 50 prototype MechaCars. The following dataframe show us the six variables for each car: vehicle length, vehicle weight, spoiler angle, drivetrain, ground clearance, and mpg.
+![MechaCarDF](Resources/MechaCarDF.png)
+
+#### Linear Model
+
+When we design a linear model on all six variables, we arrive at the following model:
+![MechaCarLM](Resources/MechaCarLM.png)
 
