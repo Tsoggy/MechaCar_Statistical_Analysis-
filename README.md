@@ -37,3 +37,36 @@ The lot summary dataframe groups these four statistics by manufacturing lot:
 
 <img src="Resources/LotSummary.png" width="600">
 
+#### Variance
+The design specifications for MechaCar dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. When we take a look at the three lots together, we see that the variance is 62.29, which does not exceed 100.
+
+When we look at each lot individually, we see that:
+1. Lot1: the variance is 0.98, which shows a very small amount of variance
+2. Lot2: the variance is 7.47, which is slightly more variance than Lot1, vut still very small
+3. Lot3: the variance is 170.29, which is very large, and shows us that Lot3 is impacting the overall variance when we look at the population of prototypes as a whole
+
+## T-Tests on Suspension Coils
+#### All Manufacturing Lots
+We performed a one sample t-test to see if the mean of all of the three manufacturing lots is statistically similar or dissimilar to the presumed population mean of 1500.
+<img src="Resources/AllLotsTTest.png" width="600">
+When we look at the results, we notice that the mean of the three lots if 1498.78. As the p-value is 0.06, which is greater than our significance value of 0.05, we do not have enough evidence to reject the null hypothesis. As such, we can say that the mean of the PSI of the manufacturing lots overall is statistically similar to the presumed population mean of 1500.
+
+#### Lot1
+We performed a one sample t-test for Lot1.
+<img src="Resources/Lot1TTest.png" width="600">
+The mean of the PSI in Lot1 is 1500. With a resulting p-value of 1, the null hypothesis is not rejected, as there is literally zero statistical difference between Lot1's sample mean and the presumed population mean of 1500.
+
+#### Lot2
+We performed a one sample t-test for Lot2.
+<img src="Resources/Lot2TTest.png" width="600">
+The mean of the PSI in Lot2 is 1500.02. With a resulting p-value of 0.61, the null hypothesis is not rejected, and we are able to say that the sample mean of Lot2 and the presumed population mean of 1500 are statistically similar.
+
+#### Lot3
+Finally, we performed a one sample t-test for Lot3.
+<img src="Resources/Lot3TTest.png" width="600">
+The mean of the PSI in Lot3 is 1496.14. The p-value is 0.04, which is smaller than our significance value of 0.05. We are able to reject the null hypothesis that the means of the lot and of the population are similar. As such, we are able to determine that the mean of Lot3 and the presumed popopulation mean of 1500 are statistically different.
+
+#### Overall Impressions
+While the MechaCar prototypes in Lots 1 and 2 are similar, the prototypes in Lot3 are not.
+
+##
