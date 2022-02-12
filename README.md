@@ -25,7 +25,7 @@ When we design a linear model on all six variables, we arrive at the following s
 #### DataFrame
 The Suspension_Coil.csv dataset contains the PSI for different vehicles in three production lots: Lot1, Lot2, and Lot 3.
 
-<img src="Resources/SuspensionCoilDF.png" width="400">
+<img src="Resources/SuspensionCoilDF.png" width="300">
 
 #### Total Summary
 The total summary dataframe summarizes the mean, median, variance, and standard deviation for the PSI of all vehicles in the three lots:
