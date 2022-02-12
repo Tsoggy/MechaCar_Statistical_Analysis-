@@ -10,12 +10,12 @@ In addition, we will design a study comparing the MechaCar to other cars
 ## Linear Regression to Predict MPG
 #### DataFrame
 The MechaCar_mpg.csv dataset contacts mpg results for 50 prototype MechaCars. The following dataframe show us the six variables for each car: vehicle length, vehicle weight, spoiler angle, ground clearance, drivetrain, and mpg.
-![MechaCarDF](Resources/MechaCarDF.png)
+![MechaCarDF](Resources/MechaCarDF.png | width=100)
 
 #### Linear Model
 
 When we design a linear model on all six variables, we arrive at the following statistical summary:
-![MechaCarLM](Resources/MechaCarLM.png)
+![MechaCarLM](Resources/MechaCarLM.png | width=100)
 - The t-value for both vehicle length and ground clearance are high. That means these two variables have a significant impact on mpg. Meanwhile, the vehicle weight, spoiler angle, and presence of AWD have lower t-values that would indicate less or no impact on mpg.
 - In this instance, our null hypothesis would be that none of the variables of the MechaCar protoype contribute to a significant change in mpg. If this were the case, the slope of our linear model would be zero and our p-value would be greater than the significance level of 0.05%. However, two variables - vehicle length and ground clearance - have a significant impact on mpg. If we take a look at our p-value, it is far smaller than the significance level of 0.05%, which means we can reject the null hypothesis. The slope of the linear model will not be zero.
 - The r-squared value of this linear model is 0.7149, which means that 71.49% of the changes in mpg can be explained by differences in the variables in the model.
