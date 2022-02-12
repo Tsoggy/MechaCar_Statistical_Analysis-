@@ -73,4 +73,25 @@ The mean of the PSI in Lot3 is 1496.14. The p-value is 0.04, which is smaller th
 #### Overall Impressions
 While the MechaCar prototypes in Lots 1 and 2 are similar, the prototypes in Lot3 are not.
 
-##
+## Study Design: MechaCar vs. Competition
+#### Safety
+We would like to see how MechaCar performs against its competition in the category of safety. We first start by determining the metrics that we would use to evaluate safety:
+1. Safety ratings as issued by the IIHS overall
+2. Safety ratings by model type of MechaCar
+3. What sorts of design features impact safety ratings
+
+#### Null Hypothesis and Alternative Hypothesis
+We would be interested in evaluating the following:
+1. Are MechaCar's safety ratings statistically similar to that of its competitors? Our null hypothesis would be: MechaCar's safety ratings are statistically similar to that of its competitors. To be competitive and to advertise MechaCar as an outstanding option in terms of safety, we would need to compare MechaCar's safety ratings to its competitors, have a p-value smaller than 0.05, which would show that MechaCar's safety ratings are statistically different than its competitors and better. This would prove the alternative hypothesis and put MechaCar on the map.
+2. Do the different models of MechaCar's prototypes have statistically similar safety ratings? Our null hypothesis would be: MechaCar's different models have statistically similar safety ratings. We need to compare the safety ratings for the different models of MechaCar and make sure that our ratings are statistically similar, with a p-value greater than 0.05. Therefore we would prove our null hypothesis and can say that all of MechaCar's models are equally safe and each would make a good purchase for consumers who prioritize car safety in their car-buying choices.
+3. Do different design features for each model result in variety in safety ratings? Our null hypothesis would be: changing the design features for any of MechaCar's prototypes does not have an impact on safety ratings. To allow for customers to request design changes to their vehicles, we need to prove that design features do not change safety, therefore, all design changes result in statistically similar safety ratings, proving our null hypothesis.
+
+#### Statistical Tests
+To prove these hypotheses, we would run t-tests.
+
+#### Data
+To run these statistical tests, we would need the following data:
+1. MechaCar's safety ratings; safety ratings of other car makes.
+2. MechaCar's models and the safety ratings for each model.
+3. MechaCar's design features and the impact to safety for these features.
+
