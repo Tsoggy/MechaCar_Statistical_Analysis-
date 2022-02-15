@@ -24,7 +24,7 @@ When we design a linear model on all six variables, we arrive at the following s
 
 ## Summary Statistics on Suspension Coils
 #### DataFrame
-The Suspension_Coil.csv dataset contains the PSI for different vehicles in three production lots: Lot1, Lot2, and Lot 3.
+The Suspension_Coil.csv dataset contains the PSI for different vehicles in three production lots: Lot1, Lot2, and Lot3.
 
 <img src="Resources/SuspensionCoilDF.png" width="250">
 
