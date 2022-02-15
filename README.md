@@ -43,7 +43,7 @@ The design specifications for MechaCar dictate that the variance of the suspensi
 
 When we look at each lot individually, we see that:
 1. Lot1: the variance is 0.98, which shows a very small amount of variance
-2. Lot2: the variance is 7.47, which is slightly more variance than Lot1, vut still very small
+2. Lot2: the variance is 7.47, which is slightly more variance than Lot1, but still very small
 3. Lot3: the variance is 170.29, which is very large, and shows us that Lot3 is impacting the overall variance when we look at the population of prototypes as a whole
 
 ## T-Tests on Suspension Coils
